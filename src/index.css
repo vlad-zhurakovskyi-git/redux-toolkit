@@ -1,0 +1,46 @@
+button {
+    font-size: 25px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.likes {
+    min-width: 30px;
+    margin-left: 4px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.posts {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.post {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #eee;
+}
+
+.post__title {
+    font-size: 20px;
+}
+
+.post__body {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.total__likes {
+    display: inline-flex;
+    justify-content: center;
+    min-width: 18px;
+    text-align: center;
+}
